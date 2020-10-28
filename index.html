@@ -1,11 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
     <title>Bootstrap Site</title>
 </head>
+
 <body>
-    <h1>Preved, krevedko!11</h1>
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">SERVICE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PRICING TABLE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">HOW IT WORK</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">HAPPPY CLIENTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CONTACT US</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="jumbotron jumbotron-fluid banner">
+        <div class="container">
+            <h2>Boost up your local business</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum typesetting</p>
+            <form> 
+                <div class="form-row request-quote">
+                    <div class="input-group input-group-lg col">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text" id="inputGroup-sizing-lg"><i class="fa fa-user fa-fw"></i></span>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" placeholder="Full Name">
+                      </div>
+                      <div class="input-group input-group-lg col">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text" id="inputGroup-sizing-lg"><i class="fa fa-envelope fa-fw"></i></span>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" placeholder="Email Address">
+                      </div>
+                      <div class="input-group input-group-lg col">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text" id="inputGroup-sizing-lg"><i class="fa fa-phone fa-fw"></i></span>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Large" aria-describedby="inputGroup-sizing-sm" placeholder="Phone Number">
+                      </div>
+
+                     <div class="input-group input-group-lg col">
+
+                        <button type="button" class="btn btn-primary btn-lg banner-submit">REQUEST A QUOTE</button>
+                    </div>
+
+                </div>
+   
+            </form>
+       </div>
+       <img src="images/laptop.png" class="img-circle mx-auto d-block" alt="Sample photo"/>
+    </div>
+
+
 </body>

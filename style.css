@@ -1,0 +1,94 @@
+@font-face {
+    font-family: lato;
+    src: url(fonts/lato.ttf);  
+}
+@font-face {
+    font-family: opensans;
+    src: url(fonts/opensans.ttf);  
+}
+@font-face {
+    font-family: opensans-light;
+    src: url(fonts/opensans-light.ttf);  
+}
+@font-face {
+    font-family: gotham-black;
+    src: url(fonts/gotham-black.ttf);  
+}
+
+
+html{
+    font-family: "lato", "PT Sans", "Arial", sans-serif;
+    font-size: 13px;
+}
+h2 {
+    font-family: "gotham-black", "PT Sans", "Arial", sans-serif;
+    font-size: 2.8rem;
+    text-transform: uppercase;
+}
+.navbar{
+    height: 90px;
+}
+a.nav-link {
+    color: #998866;
+    font-size: 14px;
+
+}
+.nav-item.active  .nav-link{
+    background-color: #ffbb42;
+    border-radius: 2px;
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #868686;  
+}
+.navbar-light .navbar-nav .nav-item.active .nav-link {
+    color: #fff;
+}
+.banner {
+    background-color: #709dca;
+    color: #fff;
+    text-align: center;
+}
+.banner h2 {
+    font-family: "gotham-black", "PT Sans", "Arial", sans-serif;
+}
+.banner p {
+    font-family: "opensans-light", "PT Sans", "Arial", sans-serif;
+    font-size: 1.4rem;
+}
+div.input-group.input-group-lg.col .input-group-text {
+    border-radius: 2px;
+}
+div.input-group.input-group-lg.col input.form-control {
+    border-radius: 2px;
+
+}
+.form-control {
+    border-radius: 2px;
+    border-left: none;
+    color: darkgrey;
+}
+.input-group-text {
+    background-color: white;
+    border-right: none;
+}
+.btn-primary.banner-submit {
+    background-color: #ffbb42;
+    border: none;
+    border-radius: 2px;
+}
+.btn-primary.banner-submit:focus {
+    background-color: #ffbb42;
+    border: none;
+    border-radius: 2px;
+}
+.form-control:focus {
+    color: black;
+    background-color: #fff;
+    border-color: #ffbb42;
+    outline: 0;
+  }
+  .form-control::placeholder {
+    color: darkgrey;
+    opacity: 1;
+  }
