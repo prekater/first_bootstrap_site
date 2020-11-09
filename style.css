@@ -319,10 +319,11 @@ box-shadow: none;
     border-radius: 2px;
     border: 1px solid #fff;
 }
-.card .card-body .btn.btn-warningn:active  {
-    color: white;
-    background-color: pink;
-    border-radius: 2px;
+.card .card-body .btn.btn-warning:active  {
+    box-shadow: none;
+    outline: none;
+}
+.card .card-body .btn.btn-warning:focus  {
     box-shadow: none;
     outline: none;
 }
@@ -421,10 +422,7 @@ box-shadow: none;
     background-color: pink;
     border-radius: 2px;
 }
-.how-it-works .btn.btn-lg.button:active  {
-    color: white;
-    background-color: pink;
-    border-radius: 2px;
+.how-it-works .btn.btn-lg.button:active, .how-it-works .btn.btn-lg.button:focus  {
     box-shadow: none;
     outline: none;
 }
