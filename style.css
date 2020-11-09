@@ -246,6 +246,10 @@ a.nav-link {
     line-height: 1.8rem;
     font-size: 1.1rem;
 }
+.about-us .btn.btn-outline-light:active {
+box-shadow: none;
+
+}
 @media (max-width: 991.9px) { 
     .text-about-us {
         align-items: center;
@@ -314,6 +318,13 @@ a.nav-link {
     background-color: pink;
     border-radius: 2px;
     border: 1px solid #fff;
+}
+.card .card-body .btn.btn-warningn:active  {
+    color: white;
+    background-color: pink;
+    border-radius: 2px;
+    box-shadow: none;
+    outline: none;
 }
   .premium-card{
     border: none;
@@ -409,6 +420,13 @@ a.nav-link {
     color: white;
     background-color: pink;
     border-radius: 2px;
+}
+.how-it-works .btn.btn-lg.button:active  {
+    color: white;
+    background-color: pink;
+    border-radius: 2px;
+    box-shadow: none;
+    outline: none;
 }
 @media (max-width: 575.9px) { 
     .pics {
