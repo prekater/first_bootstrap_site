@@ -79,15 +79,9 @@ a.nav-link {
     color: #868686;
     font-size: 1.1rem;
 }
-.navbar-nav .nav-item a.nav-link:hover {
+.navbar-nav .nav-item a.nav-link:hover, .navbar-nav .nav-item a.nav-link:active {
     color: white;
     background-color: #868686;
-    font-size: 1.1rem;
-    border-radius: 2px;
-}
-.navbar-nav .nav-item a.nav-link:active {
-    color: white;
-    background-color: #709dca;
     font-size: 1.1rem;
     border-radius: 2px;
 }
@@ -737,7 +731,7 @@ box-shadow: none;
     color: #709dca;
     font-size: 1.4rem;
 }
-.footer .socials i:first-child {
+.footer .socials a:first-child {
     color: #ffc155; 
 }
 .footer .container-fluid {
