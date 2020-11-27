@@ -52,8 +52,7 @@ phone.onfocus = function() {
     };
 }  
 
-btn.onclick = function () {
-    
+btn.onclick = function () {    
     let input = request.getElementsByTagName('input');
     for (let item of input) {
         if (item.classList.contains('invalid')) {
