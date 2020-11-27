@@ -743,3 +743,21 @@ box-shadow: none;
     color: white;
     margin-bottom: 0;
 }
+/* #error1, #error2, #error3 {
+    display: flex;
+    background-color: lightpink;
+    color: red;
+
+} */
+
+.invalid { 
+    background-color: #f0d671; 
+}
+
+#error {
+    background-color: rgba(256, 0, 0, 0.5);     
+}
+#error2 {
+    background-color: rgba(256, 0, 0, 0.5);
+    color: white;     
+}
